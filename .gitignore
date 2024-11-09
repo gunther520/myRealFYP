@@ -1,0 +1,5 @@
+/.vscode
+/concatenated_dataset
+/cuda_try
+/models
+/prompt_file.jinja2
