@@ -117,8 +117,8 @@ if __name__ == "__main__":
 
     # Create a sampling params object.
     sampling_params = SamplingParams(
-        temperature=0,
-        top_p=1.0,
+        temperature=0.7,
+        top_p=0.9,
         min_tokens=0,
         max_tokens=400,
     )
