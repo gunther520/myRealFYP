@@ -1,0 +1,159 @@
+Namespace(backend='vllm', base_url=None, host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='temp_dataset/ShareGPT_V3_unfiltered_cleaned_split.json', max_concurrency=None, model='meta-llama/Llama-3.1-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20, logprobs=None, request_rate=inf, burstiness=1.0, seed=0, trust_remote_code=False, disable_tqdm=False, profile=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False, percentile_metrics='ttft,tpot,itl', metric_percentiles='99', goodput=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, sharegpt_output_len=None, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, random_prefix_len=0, hf_subset=None, hf_split=None, hf_output_len=None)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: inf
+Burstiness factor: 1.0 (Poisson process)
+Maximum request concurrency: None
+============ Serving Benchmark Result ============
+Successful requests:                     20        
+Benchmark duration (s):                  13.45     
+Total input tokens:                      3590      
+Total generated tokens:                  4316      
+Request throughput (req/s):              1.49      
+Output token throughput (tok/s):         320.86    
+Total Token throughput (tok/s):          587.75    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          992.72    
+Median TTFT (ms):                        1059.03   
+P99 TTFT (ms):                           1629.01   
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          39.15     
+Median TPOT (ms):                        24.47     
+P99 TPOT (ms):                           170.67    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           19.95     
+Median ITL (ms):                         17.49     
+P99 ITL (ms):                            209.49    
+==================================================
+
+
+
+Namespace(backend='vllm', base_url=None, host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='temp_dataset/ShareGPT_V3_unfiltered_cleaned_split.json', max_concurrency=None, model='meta-llama/Llama-3.1-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=40, logprobs=None, request_rate=inf, burstiness=1.0, seed=0, trust_remote_code=False, disable_tqdm=False, profile=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False, percentile_metrics='ttft,tpot,itl', metric_percentiles='99', goodput=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, sharegpt_output_len=None, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, random_prefix_len=0, hf_subset=None, hf_split=None, hf_output_len=None)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: inf
+Burstiness factor: 1.0 (Poisson process)
+Maximum request concurrency: None
+============ Serving Benchmark Result ============
+Successful requests:                     40        
+Benchmark duration (s):                  17.33     
+Total input tokens:                      8595      
+Total generated tokens:                  8312      
+Request throughput (req/s):              2.31      
+Output token throughput (tok/s):         479.62    
+Total Token throughput (tok/s):          975.58    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          2059.87   
+Median TTFT (ms):                        1950.49   
+P99 TTFT (ms):                           3816.48   
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          60.16     
+Median TPOT (ms):                        32.87     
+P99 TPOT (ms):                           212.23    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           28.83     
+Median ITL (ms):                         21.91     
+P99 ITL (ms):                            213.25    
+==================================================
+
+
+
+
+
+Namespace(backend='vllm', base_url=None, host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='temp_dataset/ShareGPT_V3_unfiltered_cleaned_split.json', max_concurrency=None, model='meta-llama/Llama-3.1-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=80, logprobs=None, request_rate=inf, burstiness=1.0, seed=0, trust_remote_code=False, disable_tqdm=False, profile=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False, percentile_metrics='ttft,tpot,itl', metric_percentiles='99', goodput=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, sharegpt_output_len=None, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, random_prefix_len=0, hf_subset=None, hf_split=None, hf_output_len=None)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: inf
+Burstiness factor: 1.0 (Poisson process)
+Maximum request concurrency: None
+============ Serving Benchmark Result ============
+Successful requests:                     80        
+Benchmark duration (s):                  25.85     
+Total input tokens:                      19504     
+Total generated tokens:                  15770     
+Request throughput (req/s):              3.10      
+Output token throughput (tok/s):         610.10    
+Total Token throughput (tok/s):          1364.66   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          4577.92   
+Median TTFT (ms):                        4867.23   
+P99 TTFT (ms):                           9009.80   
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          95.14     
+Median TPOT (ms):                        64.56     
+P99 TPOT (ms):                           215.40    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           46.21     
+Median ITL (ms):                         31.16     
+P99 ITL (ms):                            217.70    
+==================================================
+
+
+
+
+Namespace(backend='vllm', base_url=None, host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='temp_dataset/ShareGPT_V3_unfiltered_cleaned_split.json', max_concurrency=None, model='meta-llama/Llama-3.1-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=160, logprobs=None, request_rate=inf, burstiness=1.0, seed=0, trust_remote_code=False, disable_tqdm=False, profile=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False, percentile_metrics='ttft,tpot,itl', metric_percentiles='99', goodput=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, sharegpt_output_len=None, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, random_prefix_len=0, hf_subset=None, hf_split=None, hf_output_len=None)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: inf
+Burstiness factor: 1.0 (Poisson process)
+Maximum request concurrency: None
+============ Serving Benchmark Result ============
+Successful requests:                     159       
+Benchmark duration (s):                  40.50     
+Total input tokens:                      33559     
+Total generated tokens:                  34066     
+Request throughput (req/s):              3.93      
+Output token throughput (tok/s):         841.05    
+Total Token throughput (tok/s):          1669.58   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          8887.32   
+Median TTFT (ms):                        8948.90   
+P99 TTFT (ms):                           16768.49  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          117.34    
+Median TPOT (ms):                        91.28     
+P99 TPOT (ms):                           223.42    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           67.15     
+Median ITL (ms):                         46.32     
+P99 ITL (ms):                            224.79    
+==================================================
+
+
+
+
+Namespace(backend='vllm', base_url=None, host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='temp_dataset/ShareGPT_V3_unfiltered_cleaned_split.json', max_concurrency=None, model='meta-llama/Llama-3.1-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=320, logprobs=None, request_rate=inf, burstiness=1.0, seed=0, trust_remote_code=False, disable_tqdm=False, profile=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False, percentile_metrics='ttft,tpot,itl', metric_percentiles='99', goodput=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, sharegpt_output_len=None, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, random_prefix_len=0, hf_subset=None, hf_split=None, hf_output_len=None)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: inf
+Burstiness factor: 1.0 (Poisson process)
+Maximum request concurrency: None
+============ Serving Benchmark Result ============
+Successful requests:                     318       
+Benchmark duration (s):                  69.78     
+Total input tokens:                      64395     
+Total generated tokens:                  68547     
+Request throughput (req/s):              4.56      
+Output token throughput (tok/s):         982.26    
+Total Token throughput (tok/s):          1905.03   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          18600.12  
+Median TTFT (ms):                        17294.69  
+P99 TTFT (ms):                           37420.36  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          158.39    
+Median TPOT (ms):                        161.19    
+P99 TPOT (ms):                           230.31    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           112.55    
+Median ITL (ms):                         83.87     
+P99 ITL (ms):                            278.04    
+==================================================
+
+
+
+
+Namespace(backend='vllm', base_url=None, host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='temp_dataset/output.json', max_concurrency=None, model='meta-llama/Llama-3.1-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20, logprobs=None, request_rate=inf, burstiness=1.0, seed=0, trust_remote_code=False, disable_tqdm=False, profile=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False, percentile_metrics='ttft,tpot,itl', metric_percentiles='99', goodput=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, sharegpt_output_len=None, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, random_prefix_len=0, hf_subset=None, hf_split=None, hf_output_len=None)
+Starting initial single prompt test run...
+Namespace(backend='vllm', base_url=None, host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='temp_dataset/output.json', max_concurrency=None, model='meta-llama/Llama-3.1-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20, logprobs=None, request_rate=inf, burstiness=1.0, seed=0, trust_remote_code=False, disable_tqdm=False, profile=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False, percentile_metrics='ttft,tpot,itl', metric_percentiles='99', goodput=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, sharegpt_output_len=None, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, random_prefix_len=0, hf_subset=None, hf_split=None, hf_output_len=None)
+Starting initial single prompt test run...

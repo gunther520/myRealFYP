@@ -259,6 +259,40 @@ def sample_hf_requests(
     return sampled_requests
 
 
+
+def sample_hf_requests_v2(
+    dataset_path: str,
+    dataset_subset: str,
+    dataset_split: str,
+    num_requests: int,
+    tokenizer: PreTrainedTokenizerBase,
+    random_seed: int,
+    fixed_output_len: Optional[int] = None,
+) -> List[Tuple[str, str, int ]]:
+    dataset = load_dataset("json",data_files=dataset_path,
+                           name=dataset_subset,
+                           split=dataset_split,
+                           streaming=True)
+
+
+    sampled_requests: List[Tuple[str, str, int ]] = []
+    for data in dataset:
+        
+        if len(sampled_requests) == num_requests:
+            break
+                # Tokenize the prompts and completions.
+        prompt = data["conversations"][0]["value"]
+        prompt_token_ids = tokenizer(prompt).input_ids
+        prompt_len = len(prompt_token_ids)
+        output_len = random.randint(20, 1000)
+
+        sampled_requests.append((prompt, prompt_len, output_len, None))
+
+    return sampled_requests
+
+        
+    
+
 def sample_random_requests(
     prefix_len: int,
     input_len: int,
@@ -656,6 +690,7 @@ async def benchmark(
     process_one_metric("e2el", "E2EL", "End-to-end Latency")
 
     print("=" * 50)
+    print('\n\n\n')
 
     return result
 
@@ -766,7 +801,7 @@ def main(args: argparse.Namespace):
                               output_len, _ in input_requests]
 
     elif args.dataset_name == "hf":
-        input_requests = sample_hf_requests(
+        input_requests = sample_hf_requests_v2(
             dataset_path=args.dataset_path,
             dataset_subset=args.hf_subset,
             dataset_split=args.hf_split,

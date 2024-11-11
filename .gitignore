@@ -3,3 +3,5 @@
 /cuda_try
 /models
 /prompt_file.jinja2
+/temp_dataset
+/.gitignore
