@@ -3,11 +3,11 @@ import torch
 # Check if CUDA is available
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# Create tensors on the GPU
-a = torch.tensor([1, 2, 3], device=device)
-b = torch.tensor([4, 5, 6], device=device)
+# Create large tensors on the GPU
+a = torch.randn(1000, 1000, device=device)
+b = torch.randn(1000, 1000, device=device)
 
-# Perform operations on the GPU
-c = a + b
+# Perform matrix multiplication on the GPU
+c = torch.matmul(a, b)
 
 print(c)
