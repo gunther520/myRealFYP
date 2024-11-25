@@ -12,11 +12,11 @@ dtype = "float"
 @profile
 def boo():
 	return LLM(
-    		#model="/home/hkngae/.cache/huggingface/hub/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659",
+    		model="/home/hkngae/.cache/huggingface/hub/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659",
     		#model="/home/hkngae/.cache/huggingface/hub/models--meta-llama--Llama-3.1-70B-Instruct/snapshots/945c8663693130f8be2ee66210e062158b2a9693",
 			#cpu_offload_gb= 16,
-			model="./models/Llama-3.1-Nemotron-70B-Instruct-HF-Q4_0.gguf",
-			quantization="gguf",
+			#model="./models/Llama-3.1-Nemotron-70B-Instruct-HF-Q4_0.gguf",
+			#quantization="gguf",
 			#enable_chunked_prefill=True,
 			#max_num_seqs=128,
 			#max_num_batched_tokens=1024,
