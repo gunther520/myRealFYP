@@ -5,16 +5,28 @@ import os
 import matplotlib.pyplot as plt
 import time
 
-#vllm serve meta-llama/Llama-3.1-8B-Instruct         --swap-space 16         --disable-log-requests --tensor_parallel_size 8
+#vllm serve meta-llama/Llama-3.1-8B-Instruct --max-num-batched-tokens --disable-log-requests --tensor_parallel_size 4
+
+server_command = f'vllm serve meta-llama/Llama-3.1-8B-Instruct --kv-cache-dtype fp8 --disable-log-requests --tensor_parallel_size 4'
+
+result_dir = f'benchmark_out/benchmark_7'
+if not os.path.exists(result_dir):
+    os.makedirs(result_dir)
+# add a readme file to the directory
+with open(result_dir + '/readme.txt', 'w') as f:
+    #write the command used to start the server
+    f.write(server_command+'\n')
+    #write line 25 to line 38 in this script.py file to the readme file
+    with open('script.py', 'r') as f2:
+        lines = f2.readlines()
+        for line in lines[24:40]:
+            f.write(line)
+
 
 for i in range(7,0,-1):
     #command = f'python3 benchmarks/benchmark_serving.py         --model meta-llama/Llama-3.1-8B-Instruct     --dataset-name hf  --dataset-path /home/hkngae/test/temp_dataset/output.json     --hf-split train   --num-prompts {2**i * 10} >> benchmark_out2.txt'
     #command = f'python3 benchmarks/benchmark_serving.py   --model meta-llama/Llama-3.1-8B-Instruct    --dataset-path /home/hkngae/test/temp_dataset/ShareGPT_V3_unfiltered_cleaned_split.json     --hf-split train   --num-prompts {2**i *10} >> benchmark_out4.txt'
-    
-    result_dir = f'benchmark_out/benchmark_4'
     json_file = f"num_prompts_{2**i * 10}.json"
-
-
     command = f'python3 benchmarks/benchmark_serving.py ' \
             f'--model meta-llama/Llama-3.1-8B-Instruct ' \
             f'--dataset-name hf ' \

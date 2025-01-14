@@ -6,8 +6,8 @@ from vllm import LLM, SamplingParams
 def create_llm():
     return LLM(
         model="/home/hkngae/.cache/huggingface/hub/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659",
-        gpu_memory_utilization=1,
-        tensor_parallel_size=8,
+        gpu_memory_utilization=0.9,
+        tensor_parallel_size=4,
     )
 
 if __name__ == "__main__":

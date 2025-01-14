@@ -1,4 +1,4 @@
-#vllm serve meta-llama/Llama-3.1-8B-Instruct         --dtype float16         --disable-log-requests --tensor_parallel_size 8 --gpu-memory-utilization 0.5
+#vllm serve meta-llama/Llama-3.1-8B-Instruct --dtype float16 --disable-log-requests --tensor_parallel_size 8 --gpu-memory-utilization 0.5
 
 
 for i in range(7,0,-1):
