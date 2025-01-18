@@ -4,12 +4,12 @@ import json
 import os
 import matplotlib.pyplot as plt
 import time
+#will not reopen the server for each prompt size
+#vllm serve meta-llama/Llama-3.1-8B-Instruct --disable-log-requests --tensor_parallel_size 4
 
-#vllm serve meta-llama/Llama-3.1-8B-Instruct --max-num-batched-tokens --disable-log-requests --tensor_parallel_size 4
+server_command = f'vllm serve meta-llama/Llama-3.1-8B-Instruct --disable-log-requests --tensor_parallel_size 4'
 
-server_command = f'vllm serve meta-llama/Llama-3.1-8B-Instruct --kv-cache-dtype fp8 --disable-log-requests --tensor_parallel_size 4'
-
-result_dir = f'benchmark_out/benchmark_7'
+result_dir = f'benchmark_out/benchmark_test'
 if not os.path.exists(result_dir):
     os.makedirs(result_dir)
 # add a readme file to the directory
@@ -19,7 +19,7 @@ with open(result_dir + '/readme.txt', 'w') as f:
     #write line 25 to line 38 in this script.py file to the readme file
     with open('script.py', 'r') as f2:
         lines = f2.readlines()
-        for line in lines[24:40]:
+        for line in lines[24:42]:
             f.write(line)
 
 
@@ -37,6 +37,9 @@ for i in range(7,0,-1):
             f'--save-result ' \
             f'--result-filename {json_file} ' \
             f'--result-dir {result_dir} ' \
+            f'--request-rate 80.0 ' \
+            f'--burstiness 0.25 ' \
+            f"--max-concurrency 80 " \
         #f'--num-prompts {2**i * 10} ' \
             
     

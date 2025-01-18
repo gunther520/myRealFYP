@@ -1,4 +1,4 @@
-vllm serve meta-llama/Llama-3.1-8B-Instruct --kv-cache-dtype fp8 --disable-log-requests --tensor_parallel_size 4
+vllm serve meta-llama/Llama-3.1-8B-Instruct --disable-log-requests --tensor_parallel_size 2
 
 for i in range(7,0,-1):
     #command = f'python3 benchmarks/benchmark_serving.py         --model meta-llama/Llama-3.1-8B-Instruct     --dataset-name hf  --dataset-path /home/hkngae/test/temp_dataset/output.json     --hf-split train   --num-prompts {2**i * 10} >> benchmark_out2.txt'
