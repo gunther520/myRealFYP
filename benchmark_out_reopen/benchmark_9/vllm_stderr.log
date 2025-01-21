@@ -1,0 +1,644 @@
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:00<00:01,  1.79it/s]
+Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:01<00:01,  1.73it/s]
+Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:01<00:00,  2.60it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.18it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.13it/s]
+
+INFO:     Started server process [1746761]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on socket ('0.0.0.0', 8000) (Press CTRL+C to quit)
+Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 395, in run_mp_engine
+    engine.start()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 165, in start
+    self.cleanup()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 388, in signal_handler
+    raise KeyboardInterrupt("MQLLMEngine terminated")
+KeyboardInterrupt: MQLLMEngine terminated
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 3 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked shared_memory objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:00<00:01,  2.01it/s]
+Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:01<00:01,  1.98it/s]
+Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:01<00:00,  2.93it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.49it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.43it/s]
+
+INFO:     Started server process [1748250]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on socket ('0.0.0.0', 8000) (Press CTRL+C to quit)
+Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 395, in run_mp_engine
+    engine.start()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 165, in start
+    self.cleanup()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 388, in signal_handler
+    raise KeyboardInterrupt("MQLLMEngine terminated")
+KeyboardInterrupt: MQLLMEngine terminated
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 3 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked shared_memory objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:00<00:01,  2.25it/s]
+Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:00<00:00,  2.14it/s]
+Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:01<00:00,  3.18it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.68it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.63it/s]
+
+INFO:     Started server process [1749686]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on socket ('0.0.0.0', 8000) (Press CTRL+C to quit)
+Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 395, in run_mp_engine
+    engine.start()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 165, in start
+    self.cleanup()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 388, in signal_handler
+    raise KeyboardInterrupt("MQLLMEngine terminated")
+KeyboardInterrupt: MQLLMEngine terminated
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 3 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked shared_memory objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:00<00:01,  1.92it/s]
+Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:01<00:01,  1.90it/s]
+Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:01<00:00,  2.92it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.74it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.54it/s]
+
+INFO:     Started server process [1751212]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on socket ('0.0.0.0', 8000) (Press CTRL+C to quit)
+Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 395, in run_mp_engine
+    engine.start()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 165, in start
+    self.cleanup()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 388, in signal_handler
+    raise KeyboardInterrupt("MQLLMEngine terminated")
+KeyboardInterrupt: MQLLMEngine terminated
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 3 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked shared_memory objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:00<00:01,  2.28it/s]
+Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:00<00:00,  2.21it/s]
+Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:01<00:00,  3.27it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.77it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.71it/s]
+
+INFO:     Started server process [1752925]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on socket ('0.0.0.0', 8000) (Press CTRL+C to quit)
+Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 395, in run_mp_engine
+    engine.start()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 165, in start
+    self.cleanup()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 388, in signal_handler
+    raise KeyboardInterrupt("MQLLMEngine terminated")
+KeyboardInterrupt: MQLLMEngine terminated
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 3 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked shared_memory objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:00<00:01,  1.98it/s]
+Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:01<00:01,  1.91it/s]
+Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:01<00:00,  2.87it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.51it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.41it/s]
+
+INFO:     Started server process [1754911]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on socket ('0.0.0.0', 8000) (Press CTRL+C to quit)
+Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 395, in run_mp_engine
+    engine.start()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 165, in start
+    self.cleanup()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 388, in signal_handler
+    raise KeyboardInterrupt("MQLLMEngine terminated")
+KeyboardInterrupt: MQLLMEngine terminated
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 3 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked shared_memory objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:00<00:01,  1.75it/s]
+Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:01<00:01,  1.72it/s]
+Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:01<00:00,  2.56it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.19it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.12it/s]
+
+INFO:     Started server process [1757586]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on socket ('0.0.0.0', 8000) (Press CTRL+C to quit)
+Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 395, in run_mp_engine
+    engine.start()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 165, in start
+    self.cleanup()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 388, in signal_handler
+    raise KeyboardInterrupt("MQLLMEngine terminated")
+KeyboardInterrupt: MQLLMEngine terminated
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 3 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked shared_memory objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:00<00:01,  1.89it/s]
+Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:01<00:01,  1.81it/s]
+Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:01<00:00,  2.72it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.52it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.37it/s]
+
+INFO:     Started server process [1761885]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on socket ('0.0.0.0', 8000) (Press CTRL+C to quit)
+Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 395, in run_mp_engine
+    engine.start()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 165, in start
+    self.cleanup()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 388, in signal_handler
+    raise KeyboardInterrupt("MQLLMEngine terminated")
+KeyboardInterrupt: MQLLMEngine terminated
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 3 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked shared_memory objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:00<00:01,  2.26it/s]
+Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:00<00:00,  2.16it/s]
+Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:01<00:00,  3.20it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.76it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.68it/s]
+
+INFO:     Started server process [1763301]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on socket ('0.0.0.0', 8000) (Press CTRL+C to quit)
+Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 395, in run_mp_engine
+    engine.start()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 165, in start
+    self.cleanup()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 388, in signal_handler
+    raise KeyboardInterrupt("MQLLMEngine terminated")
+KeyboardInterrupt: MQLLMEngine terminated
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 3 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked shared_memory objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:00<00:01,  2.33it/s]
+Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:00<00:00,  2.26it/s]
+Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:01<00:00,  3.34it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.81it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.75it/s]
+
+INFO:     Started server process [1764809]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on socket ('0.0.0.0', 8000) (Press CTRL+C to quit)
+Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 395, in run_mp_engine
+    engine.start()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 165, in start
+    self.cleanup()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 388, in signal_handler
+    raise KeyboardInterrupt("MQLLMEngine terminated")
+KeyboardInterrupt: MQLLMEngine terminated
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 3 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked shared_memory objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:00<00:01,  2.14it/s]
+Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:00<00:00,  2.11it/s]
+Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:01<00:00,  3.15it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.85it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.70it/s]
+
+INFO:     Started server process [1766405]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on socket ('0.0.0.0', 8000) (Press CTRL+C to quit)
+Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 395, in run_mp_engine
+    engine.start()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 165, in start
+    self.cleanup()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 388, in signal_handler
+    raise KeyboardInterrupt("MQLLMEngine terminated")
+KeyboardInterrupt: MQLLMEngine terminated
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 3 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked shared_memory objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:00<00:01,  2.34it/s]
+Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:00<00:00,  2.27it/s]
+Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:00<00:00,  3.40it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.99it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.87it/s]
+
+INFO:     Started server process [1768193]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on socket ('0.0.0.0', 8000) (Press CTRL+C to quit)
+Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 395, in run_mp_engine
+    engine.start()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 165, in start
+    self.cleanup()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 388, in signal_handler
+    raise KeyboardInterrupt("MQLLMEngine terminated")
+KeyboardInterrupt: MQLLMEngine terminated
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 3 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked shared_memory objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:00<00:01,  2.01it/s]
+Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:01<00:01,  1.94it/s]
+Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:01<00:00,  2.93it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.65it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.51it/s]
+
+INFO:     Started server process [1770295]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on socket ('0.0.0.0', 8000) (Press CTRL+C to quit)
+Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 395, in run_mp_engine
+    engine.start()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 165, in start
+    self.cleanup()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 388, in signal_handler
+    raise KeyboardInterrupt("MQLLMEngine terminated")
+KeyboardInterrupt: MQLLMEngine terminated
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 3 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked shared_memory objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+No module named 'vllm._version'
+  from vllm.version import __version__ as VLLM_VERSION
+Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:00<00:01,  1.89it/s]
+Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:01<00:01,  1.86it/s]
+Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:01<00:00,  2.78it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.43it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.33it/s]
+
+INFO:     Started server process [1773193]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on socket ('0.0.0.0', 8000) (Press CTRL+C to quit)
+Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 395, in run_mp_engine
+    engine.start()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 165, in start
+    self.cleanup()
+  File "/home/hkngae/anaconda3/envs/myenv/lib/python3.10/site-packages/vllm/engine/multiprocessing/engine.py", line 388, in signal_handler
+    raise KeyboardInterrupt("MQLLMEngine terminated")
+KeyboardInterrupt: MQLLMEngine terminated
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 3 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/home/hkngae/anaconda3/envs/myenv/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked shared_memory objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

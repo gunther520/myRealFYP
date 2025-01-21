@@ -12,10 +12,10 @@ import requests
 prompt_sizes = [20, 40, 80, 160, 320, 640, 1280]
 
 # Define the server command with logging
-server_command_template = 'vllm serve meta-llama/Llama-3.1-8B-Instruct --disable-log-requests --tensor_parallel_size 4'
+server_command_template = 'vllm serve meta-llama/Llama-3.1-8B-Instruct --disable-log-requests --tensor_parallel_size 2'
 
 # Directory to store benchmark results and PID file
-result_dir = 'benchmark_out_reopen/benchmark_5'
+result_dir = 'benchmark_out_reopen/benchmark_13'
 
 # Path to the PID file
 pid_file = os.path.join(result_dir, 'vllm.pid')
@@ -108,10 +108,9 @@ def run_benchmark(prompt_size):
             f'--save-result ' \
             f'--result-filename {json_file} ' \
             f'--result-dir {result_dir} ' \
-            f'--use-beam-search ' \
-        # f'--request-rate 80.0 ' \
-        # f'--burstiness 0.25 ' \
-        # f'--max-concurrency 80'
+            #f'--request-rate 80 ' \
+            #f'--burstiness 0.5 ' \
+            #f'--max-concurrency 80'
     
     
     try:

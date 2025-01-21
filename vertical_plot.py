@@ -42,12 +42,12 @@ y_max=[
     750
 ]
 
-for koo in range(20):
+for koo in range(14):
     total_output_tokens = []
     data = [[] for _ in range(len(ys))]
     for i in range(1,8):
         json_file = f'num_prompts_{2**i * 10}.json'
-        json_full_file = f'benchmark_out/benchmark_{koo}/{json_file}'
+        json_full_file = f'benchmark_out_reopen/benchmark_{koo}/{json_file}'
         with open(json_full_file, 'r') as file0:
             #read the total_output_tokens
             total_output_tokens.append(json.load(file0)['total_output_tokens'])
@@ -79,6 +79,6 @@ for koo in range(20):
 
     #save the plot as a PNG image
     plt.tight_layout()
-    plt.savefig(f'benchmark_out/benchmark_{koo}/vertical_plot{koo}_tokens.png')
+    plt.savefig(f'benchmark_out_reopen/benchmark_{koo}/vertical_plot{koo}_tokens.png')
 
 
