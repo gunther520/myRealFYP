@@ -15,7 +15,7 @@ prompt_sizes = [20, 40, 80, 160, 320, 640, 1280]
 server_command_template = 'vllm serve meta-llama/Llama-3.1-8B-Instruct --disable-log-requests --tensor_parallel_size 2'
 
 # Directory to store benchmark results and PID file
-result_dir = 'benchmark_out_reopen/benchmark_13'
+result_dir = 'benchmark_out_reopen/benchmark_14'
 
 # Path to the PID file
 pid_file = os.path.join(result_dir, 'vllm.pid')

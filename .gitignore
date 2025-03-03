@@ -5,3 +5,5 @@
 /prompt_file.jinja2
 /temp_dataset
 /.gitignore
+/*.nsys-rep
+/nsight_test/*.nsys-rep
